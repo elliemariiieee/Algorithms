@@ -8,14 +8,14 @@ namespace Sorting
 {
     public class Bubble
     {
-        public List<int> Run(List<int> ints)
+        public int[] Run(int[] ints)
         {
-            List<int> result = ints;
+            int[] result = ints;
             bool notSorted = true;
             while (notSorted)
             {
                 notSorted = false;
-                for(int i = 1;  i < result.Count; i++)
+                for(int i = 1;  i < result.Length; i++)
                 {
                     if (ints[i] < ints[i - 1])
                     {
@@ -31,6 +31,11 @@ namespace Sorting
                     }
                     continue;
                 }
+            }
+
+            for (int x = 0; x < result.Length; x++)
+            {
+                Console.Write(result[x] + " ");
             }
             return result;
         }
