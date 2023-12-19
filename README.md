@@ -20,3 +20,7 @@ Created six different algorithms for sorting and described them, provided pseudo
 ## Week Twelve
 
 Created three different algorithms for searching and described them, provided pseudocode and compared their run time, and summarized which is most efficient.
+
+## Week Fourteen
+
+Added a tree structure with the data from the provided list.
