@@ -16,3 +16,7 @@ Created four different types of data structures: maps, arrays, queues, and stack
 ## Week Eleven
 
 Created six different algorithms for sorting and described them, provided pseudocode and compared their run time, and summarized which is most efficient.
+
+## Week Twelve
+
+Created three different algorithms for searching and described them, provided pseudocode and compared their run time, and summarized which is most efficient.
